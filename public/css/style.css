@@ -1,0 +1,280 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    color: #d9142a !important;
+}
+.card {
+  display: none;
+ }
+
+.addbuttons {
+  display: none;
+  text-align: center;
+  padding-top: 2em;
+}
+
+#dance-button {
+  background-color: #bb41f4;
+}
+
+#foodie-button {
+  background-color: #2ee1e8;
+}
+
+#music-button {
+  background-color: #e06f53;
+}
+
+#culture-button {
+  background-color: #42a1f4;
+}
+
+#showall-button {
+  background-color: #e3ed34;
+}
+
+.card-action a{
+  color: red;
+}
+
+h5 {
+ 	text-align: center;
+ }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+  .row .col.m4 {
+    width: 24.333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+
+  .icon-block {
+  background-color: aliceblue;
+      padding: 15px 15px;
+}
+
+.north {
+	width: 86%;
+    margin: auto;
+    display: block;
+}
+
+.logo {
+	width: 40%;
+    margin: auto;
+    display: block;	
+}
+
+.nav-wrapper {
+    background-color: #d9142a !important; 
+}
+
+.orange {
+    background-color: #d9142a !important;
+}
+
+.btn-large {
+	background-color: #d9142a !important;
+
+}
+
+.btn-large:hover {
+	background-color: #a31126 !important;
+}
+
+.section.no-pad-bot {
+	padding-top: 0px;
+}
+
+.center, .center-align {
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.orange-text.text-lighten-3 {
+    color: #fff !important;
+}
+
+.logo-footer {
+	width: 200px;
+	height: auto;
+}
+
+.white-text {
+    text-align: left;
+}
+
+a.white-text {
+    text-align: left;
+}
+
+a:hover {
+    color: #351d20 !important;
+}
+
+p.north-text {
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-family: lato;
+    font-weight: bold;
+}
+
+#container {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .parallax-container {
+      height: 500px !important;
+    }
+
+    .sectionwhite {
+      padding-bottom: 0px;
+    }
+
+.secondary-content {
+    color: #a01b5c;
+}
+
+.collection .collection-item.avatar i.circle {
+    background-color: #3ca592;
+}
+
+.row.container h3 {
+  margin-bottom: 0px;
+}
+
+.grey-text.text-darken-3 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+ul:not(.browser-default) {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-blue-text {
+    color: #d9142a !important;
+    text-align:center;
+}
+
+.orange-text {
+    color: black !important;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.headerp {
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #d9142a !important;
+  box-shadow: 0 1px 0 0 #d9142a !important;
+}
+
+.input-field label {
+  color: #d9142a !important;
+}
+
+select {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #d9142a !important;
+    border-radius: 1px;
+    height: 3rem;
+}
+
+input[type=range] + .thumb {
+    background-color: #d9142a !important;
+}
+
+.rate {
+  color: #d9142a;
+}
+
+.btn {
+  color: white;
+  background: #d9142a;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #cc162b;
+}
+
+ul:not(.browser-default) {
+    width: 80%;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.sectionwhite {
+  background-image: url("../assets/backgroundgetintouch.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+
+.price {
+  /*border: solid 1px;*/
+  margin-top: 10px;
+  /*font-weight: 200;*/
+  background-color: #e6e9ef;
+  text-align: left;
+
+}
+
+.card .card-image .card-title {
+  font-weight: lighter;
+  background-color: black;
+}
+
+.card .card-content p {
+    margin: 0px;
+    color: inherit;
+}
+
+.card p.title-box {
+  margin-bottom: 0px;
+}
+
+.section {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}

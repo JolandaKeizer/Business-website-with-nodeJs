@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>i am festival</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script>
+    
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+  </script>
+
+</head>
+<body>
+<!-- Navbar starts -->
+ <nav>
+    <div class="nav-wrapper">
+      <a href="file:///Users/jo/Desktop/NYCDA/iamfestival/index.html" class="brand-logo right"><img class="logo-footer" src="assets/logo-footer.png" /></a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="index.html">North Festivals</a></li>
+        <li><a href="index.html">East Festivals</a></li>
+        <li><a href="index.html">South Festivals</a></li>
+         <li><a href="index.html">West Festivals</a></li>
+         <li><a href="about.html">About us</a></li>
+         <li><a href="getintouch.html">Get in touch</a></li>
+
+      </ul>
+    </div>
+  </nav>
+<!--   Navbar ends -->
+
+<!--   Parallax slider starts -->
+  <div class="parallax-container">
+    <div class="parallax"><img src="assets/about.png"></div>
+  </div>
+  <div class="sectionwhite">
+    <div class="row container">
+  </div>
+
+  <!--   Parallax slider ends -->
+
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h4 class="header center orange-text">Tell us about a festival in your neighbourhood</h4>
+      <p class="headerp"> or if you have any other question don't hasitate</p>
+    </div>
+</div>
+
+<!-- form start  -->
+
+<div id="container"> <!-- container start -->
+   <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="first_name">Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Last name</label>
+          </div>
+        </div>
+
+         <div class="row">
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="first_name">Festival name</label>
+          </div>
+          <div class="input-field col s6">
+                <select class="browser-default">Neighbourhood:</option>
+                <option value="1">North</option>
+                <option value="2">East</option>
+                <option value="3">South</option>
+                <option value="4">West</option>
+              </select>
+            </div>
+           </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <p class="rate">Rate the festival: </p>
+              <form action="#">
+                <p class="range-field">
+                <input type="range" id="test5" min="0" max="100" />
+              </p>
+            </form>
+            </div>
+          </div>
+        </div>
+      </form>
+       <a class="waves-effect waves-light btn">Submit</a>
+    </div>
+
+</div> <!-- container ends -->
+
+<!-- Footer starts -->
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <img class="logo-footer" src="assets/logo-footer.png" />
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">About us</h5>
+          <ul>
+            <li><a class="white-text" href="about.html">Your guide to visit, enjoy, all the events in Amsterdam.</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Get in touch</h5>
+          <ul>
+            <li><a class="white-text" href="getintouch.html">Did we forget a festival?<br> Tell us about it</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">VSJ-Agency</a>
+      </div>
+    </div>
+  </footer>
+<!--   Footer ends -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/init.js"></script>
+    <script src="js/animate.js"></script>
+</body>
+</html>

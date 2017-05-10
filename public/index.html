@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>i am festival</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <style>
+body  {
+    background-image: url("images/BG.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+        background-size: 100%;
+</style>
+<script>
+function bigImg(x) {
+    x.style.height = "170px";
+    x.style.width = "auto";
+}
+
+function normalImg(x) {
+    x.style.height = "150px";
+    x.style.width = "auto";
+}
+</script>
+</head>
+<body>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+              <img class="logo" src="assets/logo.png" />
+      <div class="row center">
+        <h5 class="header"><span style="color:#fff;font-weight:bold"> Explore all the festivals in your neighbourhood  </span></h5>
+      </div>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        
+         <div id="noord-tile" class="col s12 m4">
+            <div class="icon-block">
+            <img class="north" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="assets/north.png" alt="northFestivals" width="150" height="auto">
+                <h5 class="center">North festivals</h5>
+                <p class="light">Directly across the water (known as ‘the IJ’) behind Central Station, Amsterdam Noord: Old shipyard turned creative haven.</p>
+                <p class="north-text"> Urban | Creative</p>
+                <a id="noord-button" class="waves-effect waves-light btn-large">Explore north</a>
+            </div>
+        </div>
+
+        <div id="oost-tile" class="col s12 m4">
+            <div class="icon-block">
+              <img class="north" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="assets/east.png" alt="eastFestivals" width="150" height="auto">
+                <h5 class="center">East festivals</h5>
+                <p class="light">Amsterdam East (Oost) is known for its wide streets lined by monumental 19th-century buildings, as well as its vibrant cultural mix.</p>
+                <p class="north-text"> Culture Mix</p>
+                <a id="oost-button" class="waves-effect waves-light btn-large">Explore east</a>
+            </div>
+        </div>
+
+        <div id="zuid-tile" class="col s12 m4">
+            <div class="icon-block">
+              <img class="north" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="assets/south.png" alt="southFestivals" width="150" height="auto">
+                <h5 class="center">South festivals</h5>
+                <p class="light">Amsterdam South is one of Amsterdam’s most elegant neighbourhoods. From the splendour of Museumplein to Vondelpark.</p>
+                <p class="north-text"> Elegant | High-end chic</p>
+                <a id="zuid-button" class="waves-effect waves-light btn-large">Explore south</a>
+            </div>
+        </div>
+
+        <div id="west-tile" class="col s12 m4">
+            <div class="icon-block">
+              <img class="north" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="assets/west.png" alt="westFestivals" width="150" height="auto">
+                <h5 class="center">West festivals</h5>
+                <p class="light">West is a special corner of Amsterdam a popular, dynamic neighbourhood dotted by trendy design stores, cool cafe and bars.</p>
+                 <p class="north-text"> Dynamic | Trendy | Hip</p>
+                <a id="west-button" class="waves-effect waves-light btn-large">Explore west</a>
+            </div>
+        </div>
+
+      </div>
+
+    </div>
+    </div> <!--end div class="section">-->
+  </div>  <!--end <div class="container">-->
+
+<!--ADDITIONAL BUTTONS FOR MORE FILTERS -->
+
+  <div class="section">
+    <div class="container addbuttons">
+    <a id="dance-button" class="waves-effect waves-light btn sub">Dance</a>
+    <a id="foodie-button" class="waves-effect waves-light btn sub">Foodie</a>
+    <a id="music-button" class="waves-effect waves-light btn sub">Music</a>
+    <a id="culture-button" class="waves-effect waves-light btn sub">Culture</a>
+    <a id="showall-button" class="waves-effect waves-light btn sub">Show all</a>
+    </div>
+    </div>
+
+  <!--END SECTION ADDITIONAL FILTERS -->
+
+<!--BEGINNING OF EVENT CARD SECTION -->
+
+ <div class="section">
+   <div class="container">
+    <div class="row eventresults">
+
+    <!--NOORD-->
+      <!--VRIJLAND FESTIVAL-->
+          <div class="col s6">
+            <div id="card2" class="card medium noord music">
+              <div class="card-image">
+                <img src="images/pllek.jpg">
+                <span class="card-title">May 5</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold"> Pllek wordt vijf! </span></p>
+                <p class="">Pllek is op de helft van haar bestaan.</p>
+                <p class="price">Tickets: <strong>€25,-</strong></p>
+              </div>
+              <div class="card-action">
+                <a href="alf.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+      <!--AMSTERDAM LIGHT FESTIVAL-->
+          <div class="col s6">
+            <div id="card9" class="card medium noord culture">
+              <div class="card-image">
+                <img src="images/madam.jpg">
+                <span class="card-title">May 28</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Skybar party </span>
+                <p>Art installations throughout the canals of Amsterdam.</p>
+                <p class="price">Tickets: <strong>Free</strong></p>
+              </div>
+              <div class="card-action">
+                <a href="aoa.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+      <!--VRIJLAND FESTIVAL-->
+          <div class="col s6">
+            <div id="card2" class="card medium noord dance">
+              <div class="card-image">
+                <img src="images/overhetijfestival.jpg">
+                <span class="card-title">Jun 14</span>
+              </div>
+              <div class="card-content">
+                <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Over het ij festival </span>
+                <p>Over het IJ Festival groeide in vijfentwintig jaar.</p>
+                <p class="price">Tickets: <strong>€15,-</strong></p>
+
+              </div>
+              <div class="card-action">
+                <a href="alf.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+      <!--AMSTERDAM LIGHT FESTIVAL-->
+          <div class="col s6">
+            <div id="card9" class="card medium noord culture">
+              <div class="card-image">
+                <img src="images/ijhallen.jpg">
+                <span class="card-title">July 30</span>
+              </div>
+              <div class="card-content">
+                <p class="title-box"> <span style="color:#d9142a;font-weight:bold">IJ-hallen </span>            
+                <p>Art installations throughout the canals of Amsterdam.</p>
+                <p class="price">Tickets: <strong>€4,-</strong></p>
+
+              </div>
+              <div class="card-action">
+                <a href="aoa.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+        <!--VRIJLAND FESTIVAL-->
+          <div class="col s6">
+            <div id="card2" class="card medium noord music">
+              <div class="card-image">
+                <img src="images/Vrijland.png">
+                <span class="card-title">Aug 30</span>
+              </div>
+              <div class="card-content">
+                <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Over het ij festival </span>
+                <p>Celebrate freedom at the Vrijland Festival at Blijburg.</p>
+                <p class="price">Tickets: <strong>€15,-</strong></p>
+
+              </div>
+              <div class="card-action">
+                <a href="alf.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+      <!--AMSTERDAM LIGHT FESTIVAL-->
+          <div class="col s6">
+            <div id="card9" class="card medium noord culture">
+              <div class="card-image">
+                <img src="images/Lightfestival.jpg">
+                <span class="card-title">Sep 01</span>
+              </div>
+              <div class="card-content">
+                <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Over het ij festival </span>
+                <p>Art installations throughout the canals of Amsterdam.</p>
+                <p class="price">Tickets: <strong>€20,-</strong></p>
+
+              </div>
+              <div class="card-action">
+                <a href="aoa.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+    <!--OOST-->
+      <!--FIBER FESTIVAL-->
+          <div class="col s6">
+            <div id="card1"  class="card medium oost culture">
+              <div class="card-image">
+                <img src="images/24h.jpg">
+                <span class="card-title">May 8</span>
+              </div>
+              <div class="card-content">
+                 <p class="title-box"> <span style="color:#d9142a;font-weight:bold">24h Oost </span>             
+                <p>Audiovisual art, digital culture and deep electronic music.</p>
+                <p class="price">Tickets: <strong>Free</strong></p>
+
+              </div>
+              <div class="card-action">
+                <a href="alf.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+      <!--PITCH FESTIVAL-->
+          <div class="col s6">
+            <div id="card5" class="card medium oost dance">
+              <div class="card-image">
+                <img src="images/blendmarket.jpg">
+                <span class="card-title">Jun 13</span>
+              </div>
+              <div class="card-content">
+                <p class="title-box"> <span style="color:#d9142a;font-weight:bold">BLEND market </span>
+                <p>It's all about food and happy faces.</p>
+                <p class="price">Tickets: <strong>Free</strong></p>
+              </div>
+              <div class="card-action">
+                <a href="aoa.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+      <!--FIBER FESTIVAL-->
+          <div class="col s6">
+            <div id="card1"  class="card medium oost culture">
+              <div class="card-image">
+                <img src="images/roest.jpg">
+                <span class="card-title">July 4 - 6</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Roest </span>
+                <p>Audiovisual art, digital culture and deep electronic music.</p>
+                <p class="price">Tickets: <strong>€ 15,-</strong></p>
+
+              </div>
+              <div class="card-action">
+                <a href="alf.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+      <!--PITCH FESTIVAL-->
+          <div class="col s6">
+            <div id="card5" class="card medium oost dance">
+              <div class="card-image">
+                <img src="images/oost.jpg">
+                <span class="card-title">Aug 27</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Roest </span>
+               <p>Big line-up in the industrial noord of Amsterdam.</p>
+              <p class="price">Tickets: <strong>€ 15,-</strong></p>
+
+              </div>
+              <div class="card-action">
+                <a href="aoa.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+      <!--FIBER FESTIVAL-->
+          <div class="col s6">
+            <div id="card1"  class="card medium oost culture">
+              <div class="card-image">
+                <img src="images/Fiber.png">
+                <span class="card-title">Sep 28</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Roest </span>
+              <p>Audiovisual art, digital culture and deep electronic music.</p>
+               <p class="price">Tickets: <strong>€ 15,-</strong></p>
+
+              </div>
+              <div class="card-action">
+                <a href="alf.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+      <!--PITCH FESTIVAL-->
+          <div class="col s6">
+            <div id="card5" class="card medium oost dance">
+              <div class="card-image">
+                <img src="images/Pitch.png">
+                <span class="card-title">May 27</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Roest </span>
+               <p>Big line-up in the industrial noord of Amsterdam.</p>
+              <p class="price">Tickets: <strong>€ 15,-</strong></p>
+
+              </div>
+              <div class="card-action">
+                <a href="aoa.html">More information</a>
+              </div>
+            </div>
+          </div>
+          
+    <!--ZUID-->
+      <!--LENTEKABINETT FESTIVAL-->
+          <div class="col s6">
+            <div id="card3" class="card medium zuid music">
+              <div class="card-image">
+                <img src="images/openair.jpg">
+                <span class="card-title">May 9</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Open Air festival</span>
+               <p>Electronic music, arts and culture in the beautiful nature.</p>
+              <p class="price">Tickets: <strong>€ 15,-</strong></p>
+              </div>
+              <div class="card-action">
+                <a href="alf.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+      <!--ROLLENDE KEUKENS-->
+          <div class="col s6">
+            <div id="card7" class="card medium zuid foodie">
+              <div class="card-image">
+                <img src="images/urban.jpg">
+                <span class="card-title">Jun 1</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Urban Beaches </span>
+              <p>Superfood and scrumptious mobile music.</p>
+              <p class="price">Tickets: <strong>€ 5,-</strong></p>
+              </div>
+              <div class="card-action">
+                <a href="aoa.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+      <!--LENTEKABINETT FESTIVAL-->
+          <div class="col s6">
+            <div id="card3" class="card medium zuid dance">
+              <div class="card-image">
+                <img src="images/Lente.png">
+                <span class="card-title">Aug 19</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Open Air festival</span>
+                <p>Electronic music, arts and culture in the beautiful nature.</p>
+              <p class="price">Tickets: <strong>€ 15,-</strong></p>
+              </div>
+              <div class="card-action">
+                <a href="alf.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+      <!--ROLLENDE KEUKENS-->
+          <div class="col s6">
+            <div id="card7" class="card medium zuid foodie">
+              <div class="card-image">
+                <img src="images/RollendeKeukens.jpg">
+                <span class="card-title">Sep 24</span>
+              </div>
+              <div class="card-content">
+                <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Open Air festival</span>
+                <p>Superfood and scrumptious mobile music.</p>
+              <p class="price">Tickets: <strong>€ 15,-</strong></p>
+              </div>
+              <div class="card-action">
+                <a href="aoa.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+    <!--WEST-->
+        <!--GEORGIES WUNDERGARTEN-->
+          <div class="col s6">
+            <div id="card4" class="card medium west dance">
+              <div class="card-image">
+                <img src="images/rollendekeukens.jpg">
+                <span class="card-title">May 2</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Rollende keukens</span>
+               <p>A dreamy festival, hidden in the woods of Amsterdam.</p>
+              <p class="price">Tickets: <strong>Free</strong></p>
+              </div>
+              <div class="card-action">
+                <a href="alf.html">More information</a>
+              </div>
+            </div>
+          </div>
+          
+        <!--BACCHUS WINE FESTIVAL-->
+          <div class="col s6">
+            <div id="card6" class="card medium west foodie">
+              <div class="card-image">
+                <img src="images/bierwest.jpg">
+                <span class="card-title">June 9</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold">BIER West</span>
+                <p>Wine and music from around the world.</p>
+                <p class="price">Tickets: <strong>€ 8,-</strong></p>
+              </div>
+              <div class="card-action">
+                <a href="aoa.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+        <!--GEORGIES WUNDERGARTEN-->
+          <div class="col s6">
+            <div id="card4" class="card medium west dance">
+              <div class="card-image">
+                <img src="images/Georgies.png">
+                <span class="card-title">May 27</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Vintage market</span>
+                <p>A dreamy festival, hidden in the woods of Amsterdam.</p>
+                <p class="price">Tickets: <strong>Free</strong></p>
+              </div>
+              <div class="card-action">
+                <a href="alf.html">More information</a>
+              </div>
+            </div>
+          </div>
+          
+        <!--BACCHUS WINE FESTIVAL-->
+          <div class="col s6">
+            <div id="card6" class="card medium west foodie">
+              <div class="card-image">
+                <img src="images/Bacchus.jpg">
+                <span class="card-title">June 9</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Rollende keukens</span>
+                <p>Wine and music from around the world.</p>
+                <p class="price">Tickets: <strong>Free</strong></p>
+              </div>
+              <div class="card-action">
+                <a href="aoa.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+        <!--GEORGIES WUNDERGARTEN-->
+          <div class="col s6">
+            <div id="card4" class="card medium west dance">
+              <div class="card-image">
+                <img src="images/Georgies.png">
+                <span class="card-title">May 27</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Rollende keukens</span>
+                <p>A dreamy festival, hidden in the woods of Amsterdam.</p>
+                <p class="price">Tickets: <strong>Free</strong></p>
+              </div>
+              <div class="card-action">
+                <a href="alf.html">More information</a>
+              </div>
+            </div>
+          </div>
+          
+        <!--BACCHUS WINE FESTIVAL-->
+          <div class="col s6">
+            <div id="card6" class="card medium west foodie">
+              <div class="card-image">
+                <img src="images/Bacchus.jpg">
+                <span class="card-title">June 9</span>
+              </div>
+              <div class="card-content">
+              <p class="title-box"> <span style="color:#d9142a;font-weight:bold">Rollende keukens</span>
+                <p>Wine and music from around the world.</p>
+                <p class="price">Tickets: <strong>Free</strong></p>
+              </div>
+              <div class="card-action">
+                <a href="aoa.html">More information</a>
+              </div>
+            </div>
+          </div>
+
+        </div> <!--end of div class row-->
+    </div> <!--end of div class container-->
+  <!--</div> end of div class section-->
+
+<!--END OF EVENT CARD SECTION -->
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <img class="logo-footer" src="assets/logo-footer.png" />
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">About us</h5>
+          <ul>
+            <li><a class="white-text" href="about.html">Your guide to visit, enjoy, all the events in Amsterdam.</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Get in touch</h5>
+          <ul>
+            <li><a class="white-text" href="getintouch.html">Did we forget a festival?<br> Tell us about it</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">VSJ-Agency</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
